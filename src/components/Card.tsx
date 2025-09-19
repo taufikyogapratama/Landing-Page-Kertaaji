@@ -4,7 +4,7 @@ import ModalComp from "./Modal";
 type props = {
   foto: string;
   judul: string;
-  paagraft: string;
+  paragraft: string;
   paragraftRM1: string;
   paragraftRM2?: string;
 };
@@ -20,7 +20,7 @@ const CardCom = (props: props) => {
         {props.judul}
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        {props.paagraft}
+        {props.paragraft}
       </p>
       <ModalComp
         judul={props.judul}
